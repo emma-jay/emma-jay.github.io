@@ -3,6 +3,13 @@
   }
   body {
     margin: 0;
+    color: #222034;
+
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
   }
   .gpd-cnt{
     padding:0;
@@ -13,6 +20,7 @@
     background-position:left top;
     background-attachment:scroll;
     background-size: 400px;
+    margin-bottom: 60px
   }
   .gpd-clm{
     padding:5px 0;
@@ -73,6 +81,16 @@
   .accordion-css__body--open, [data-accordion-css-input]:checked ~ [data-accordion-css-body]{
     max-height:100vh;
   }
+
+  .card-header{
+    background-color:#37946e !important;
+    color:white !important;
+  }
+  
+  .card-body{
+    color:#222034!important;
+  }
+
   #is5ww{
     padding:0;
   }
@@ -160,7 +178,7 @@ form textarea {
 
 form button {
     padding: 10px 15px;
-    background-color: #333;
+    background-color: #306082;
     color: white;
     border: none;
     border-radius: 5px;
@@ -168,12 +186,16 @@ form button {
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #5fcde4;
 }
 
 footer {
-  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eec39a;
   padding: 10px;
   text-align: center;
+  color: #222034;
 }
   
