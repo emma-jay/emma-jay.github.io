@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Emma-Jay</title>
+    <title>Emma-Jay - Contact </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://grapedrop.com/css/gjs-base.css?id=d0383dd1e92b8b8ea83e">
@@ -21,17 +21,17 @@
             </svg></a>
         </div>
         <div id="i917e" class="cell gpd-navbar__items">
-          <div id="ijvda" class="gdp-row gpd-navbar__items-grid">
-            <div class="cell gpd-navbar__item">
-              <a class="gpd-navbar__item-link" href="index.html">Home</a>
+            <div id="ijvda" class="gdp-row gpd-navbar__items-grid">
+              <div class="cell gpd-navbar__item">
+                <a class="gpd-navbar__item-link" href="index.html">Home</a>
+              </div>
+              <div class="cell gpd-navbar__item">
+                <a class="gpd-navbar__item-link" href="about.html">About</a>
+              </div>
+              <div class="cell gpd-navbar__item">
+                <a class="gpd-navbar__item-link" href="contact.html">Contact</a>
+              </div>
             </div>
-            <div class="cell gpd-navbar__item">
-              <a class="gpd-navbar__item-link" href="about.html">About</a>
-            </div>
-            <div class="cell gpd-navbar__item">
-              <a class="gpd-navbar__item-link" href="contact.html">Contact</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -44,11 +44,23 @@
   <section id="isspo" class="gpd-section">
     <div class="gpd-container gpd-cnt">
       <div id="ioy7g" class="card">
-        <div id="iad7y" class="card-header">Welcome
+        <div id="iad7y" class="card-header">Contact Me
         </div>
         <div id="imhhi" class="card-body">
-          <p id="iarnu" class="card-text">This is my website, it is not finished yet !&nbsp;
+          <p id="iarnu" class="card-text">If you would to ask about a commision, want to work with me or just want to say hi you can here: &nbsp;
           </p>
+          <form action="https://formspree.io/f/xwpeplvo" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
         </div>
       </div>
     </div>
@@ -56,8 +68,8 @@
   <footer>
     <p>&copy; 2024 Emma Jay. All rights reserved.</p>
 </footer>
-
 </body>
+
   <script>var items = document.querySelectorAll('#ics08');
     for (var i = 0, len = items.length; i < len; i++) {
       (function(){
