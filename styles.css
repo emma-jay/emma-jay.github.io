@@ -19,7 +19,6 @@
     background-repeat:repeat;
     background-position:left top;
     background-attachment:scroll;
-    background-size: 400px;
     margin-bottom: 60px
   }
   .gpd-clm{
@@ -197,5 +196,9 @@ footer {
   padding: 10px;
   text-align: center;
   color: #222034;
+}
+
+img.rcorners1 {
+  border-radius: 25px;
 }
   
